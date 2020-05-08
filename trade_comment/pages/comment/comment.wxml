@@ -1,0 +1,30 @@
+<view class='container'>
+  <!-- 区域一：评分 -->
+  <view>
+    <view>
+      <text>请选择您对卖家的评分：</text>
+      <text>{{range}}</text>
+    </view>
+    <view class="score">
+      <button class='score1'>1</button>
+      <button class='score2'>2</button>
+      <button class='score1'>3</button>
+      <button class='score2'>4</button>
+      <button class='score1'>5</button>
+      <button class='score2'>6</button>
+      <button class='score1'>7</button>
+      <button class='score2'>8</button>
+      <button class='score1'>9</button>
+      <button class='score2'>10</button>
+    </view>
+  </view>
+  <view>
+    <text>请输入您对卖家的评论：</text>
+    <textarea placeholder="textarea" auto-focus='true' class='comment'></textarea>
+  </view>
+  <view>
+    <button class='submit'>提交</button>
+  </view>
+
+</view>
+
